@@ -1,1 +1,51 @@
-Dentro del mismo html
+.container {
+    background-color: rgb(163, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #f8f5f5;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c6baf;
+    color: white;
+    border:color-mix(in srgb, color percentage, color percentage);
+    border-radius: 59px;
+    cursor: pointer;
+    font-size: 30px;
+}
+input[type="submit"]:hover {
+    background-color: #6545a0;
+}
